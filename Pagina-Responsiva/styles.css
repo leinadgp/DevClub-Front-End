@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+header { 
+    width: 100vw;
+            }
+
+main{
+    width: 57%;
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 125px;
+}
+nav{
+    position:absolute; 
+    display: inline-block;
+    text-align: right;
+    width: 37%;
+    height: 100vh;
+    text-align: center;
+    background-color:rgba(93, 93, 125, 0.16);
+    padding-top: 25px;
+}
+a{
+    color: #5D5D7D;
+    font-size: 28px;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-right: 58px;
+
+}
+.work {
+    opacity: 16%;
+}
+img {
+    width: 456px;
+    height: 562px;
+    margin-right: 50px;
+    margin-top: 80px;
+    position: relative;
+    right: 150px;
+}
+
+h1 {
+    font-weight: 400px;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0px;
+    width: 520px;
+    text-align: left;
+    color: #5D5D7D;
+
+}
+
+p {
+    width: 692px;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #5D5D7D;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+
+}
+
+.btn-getstarted {
+    background: #9499EA;
+    width: 239px;
+    height: 62px;
+    border-radius: 50px;
+    cursor: pointer;
+
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+
+    font-weight: 800px;
+    border: none;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+
+}
+
+@media screen and (max-width: 900px) {
+    
+    main{
+        width: 100%;
+        height: 50%;
+        display: block;
+         margin: 45px auto;
+
+    }
+
+    h1
+    {
+        font-size: 34px ;
+        width: 268px;
+       display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 550;
+    }
+    p{
+        font-size: 14px;
+        width: 77.9%;
+        line-height: 24px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+
+        
+    }
+    /* Estilos que você deseja aplicar para telas com largura máxima de 600px */
+    .btn-getstarted {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    nav {
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+        height: 50%;
+        position: static;
+        text-align: center;
+    }
+
+    img{
+        width: 271px;
+        height: 322px;
+        position: static;
+        margin-top: 40px;
+
+    }
+
+    a {
+        display: none;
+    }
+
+}

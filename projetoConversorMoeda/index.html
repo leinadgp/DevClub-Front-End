@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Guimarães">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Projeto Conversor Moedas</title>
+</head>
+
+<body class="background">
+  
+    
+        <img src="./img/logo3.gif" alt="Logo-conversor-moeda" class="logo" />
+    
+    <main class="">
+        <label for="de-select">Converter de:
+
+        <select name="de" class="selectMoedas" id="de-select">
+            <option value="real"> R$ Real brasileiro</option>
+            <option value="dolar"> US$ Dólar americano</option>
+            <option value="euro"> €  Euro</option>
+             <option value="libra"> £ libra</option>
+            <option value="bitcoin"> ₿  BitCoin</option>
+            </select></label><br>
+
+        <label for="para-select">Converter Para:
+        <select name="para" class="selectMoedas" id="para-select">
+            <option value="dolar"> US$ Dólar americano</option>
+            <option value="real"> R$ Real brasileiro</option>            
+            <option value="euro"> €  Euro</option>
+            <option value="libra"> £ libra</option>
+            <option value="bitcoin"> ₿  BitCoin</option>
+            </select></label><br>
+        <label for="entrada">Digite o valor:    <input type="text" id="input-currency" placeholder="  R$10.000,00"/></label><br>
+            <button class="btn-converter" id="btn-converter" >Converter</button>
+
+        <div class="cx-mostra">
+                <div class="de">
+                    <img src="./img/brasil.png" alt="imagen-brasil" id="logo-de">
+                    <h4 id="des-de">Real brasileiro</h4>
+                    <h3 id="preco-de">R$0,00</h3>
+                </div>
+                <img src="./img/seta.png" alt="seta baixo" id="seta"/>
+                <div class="para">
+                    <img src="./img/EUA.png" alt="imagem-eua" id="logo-para"/>
+                    <h4 id="des-para">Dólar Americano</h4>
+                    <h3 id="preco-para">$0.00</h3>
+                </div>
+
+        </div>
+        
+
+
+    </main>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
